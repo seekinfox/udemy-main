@@ -1,0 +1,100 @@
+.callAction {
+    padding: 1.5rem 0;
+    color: gray;
+    line-height: 1.4;
+    font-family: $ubuntu;
+    text-align: center;
+    
+    .card {
+        margin: 1rem 1.5rem;
+        @include fc;
+        @include cc;
+        @include tablet {
+            padding: 2rem 10rem;
+        }
+        button {
+            width: 100%;
+            margin: 1rem;
+            font-size: 1rem;
+            padding: .8rem 1rem;
+            background-color: black;
+            color: white;
+            font-weight: 600;
+        }
+        .heading {
+            width: 70%;
+            margin: 1rem 0;
+        }
+        .img {
+            img {
+                width: 100%;
+            }
+        }
+        .info {
+            @include fc;
+            @include cc;
+            .headtext {
+                padding: 1rem;
+                font-weight:600;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .partners {
+        padding: 1rem 0;
+        background-color:rgba(0, 0, 0, 0.024) ;
+        p {
+            padding: 1rem 0;;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        img {
+            margin: .5rem;
+        }
+    }
+}
+@include desktop {
+    .callAction {
+        .card {
+            margin: 5rem 15rem;
+            @include fr;
+            height: 25rem;
+            button {
+              width: 13rem;
+            }
+            .img {
+                width: 100%;
+                height: 100%;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .info {
+                padding:0 1rem;
+                text-align: left;
+                height: 100%;
+                @include fc;
+                align-items: flex-start;
+                p, .headtext
+                {
+                    padding: 1rem;
+                }
+            }
+        }
+        .card1 {
+            flex-direction:row-reverse;
+            position: relative;
+            .info {
+                align-items: flex-end;
+                p {
+                    text-align: right;
+                }
+            }
+            .heading {
+                padding-right: 1rem;
+            }
+
+        }
+    }
+}

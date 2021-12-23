@@ -1,0 +1,166 @@
+.nav {
+    .desktop {
+        display: none;
+    }
+    > * {
+        @include fr;
+        @include cc;
+    }
+    .i {
+        font-size: 1.5rem;
+        @include tablet {
+            font-size: 2rem;
+        }
+    }
+    @include bs(0px, 5px, 10px , lightgray);
+    z-index: 1;
+    @include fr;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    .menuIcon {
+        position: relative;
+        .innerMenu {
+            position: absolute;
+            top:-1.5rem;
+            left: -1rem;
+            display: none;
+            .container {
+                height: 100vh;
+                width: 75vw;          
+                overflow: hidden;
+                background-color: white;
+                @include bs(5px, 0px, 10px, lightgray);
+                @include fc;
+            }
+            .closeIcon {
+                margin: 1.5rem 1rem;
+                font-size: 1.6rem;
+                align-self: flex-end;
+            }
+            .items {
+                padding-bottom: .5rem;
+                
+                @include fc;
+                align-items: flex-start;
+                text-align: center;
+                @include bs(0px, 3px, 3px, lightgray);
+                button {
+                    cursor: pointer;
+                    margin: .7rem 2rem;
+                    color: gray;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+
+        }
+        .showMenu {
+            display: block;
+            animation: menu .2s linear forwards;
+        }
+
+    }
+
+    .logo {
+        width: 4.5rem;
+        margin-left: 6rem;
+        img {
+            width: 100%;
+        }
+        @include tablet {
+            width: 5.5rem;
+        }
+    }
+    .search {
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+}
+@keyframes menu {
+    from {
+        left: -19rem;
+    }
+    to {
+        left: -1rem;
+    }
+}
+@include desktop {
+    .nav {
+        .menuIcon, .search, .cart {
+            display: none;
+        }
+        .logo {
+            width: 6rem;
+            margin-left: .5rem;
+        }
+        .desktop {
+            width: 100%;
+            display: block;
+            .inner {
+                margin-left: auto;
+                font-family: $ubuntu;
+                width: 100%;
+                @include fr;
+                justify-content:space-evenly;
+                align-items: center;
+                p {
+                    color: gray;
+                    font-size: .9rem;
+                    text-transform: capitalize;
+                     &:hover {
+                         color: black;
+                     }
+                }
+                .searchBox {
+                    width: 45%;
+                    position: relative;
+                    
+                    input {
+                        width: 100%;
+                        background-color: rgba(0,0,0,0.025);
+                        border: 1px solid;
+                        padding: .7rem 3rem;
+                        border-radius: 5rem;
+                        &::placeholder {
+                            font-size: .9rem;
+                        }
+                    }
+                    .sd {
+                        font-size: 1.3rem;
+                        position: absolute;
+                        top:25%;
+                        left: 1rem;
+                        color: gray;
+                    }
+                }
+                .cd {
+                    font-size: 1.6rem;
+                }
+                .buttons {
+                    @include fr;
+                    justify-content: center;
+                    button {
+                        border: 1px solid;
+                        padding: .5rem 1rem;
+                        font-size: .9rem;
+                        font-weight: 600;
+                        margin: 0 .2rem;
+                            .g {
+                                vertical-align: baseline;
+                            }
+                            &:nth-of-type(2){
+                                border: none;
+                                background-color: black;
+                                color: white;
+                            }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+}

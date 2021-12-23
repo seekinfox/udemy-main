@@ -1,0 +1,71 @@
+.feature {
+    padding: 1rem;
+    color: gray;
+    background-color:rgba(0, 0, 0, 0.024);
+    font-family: $ubuntu;
+    h2 {
+       padding: 1.5rem 0;
+        font-size: 1.3rem;
+    }
+    .sections {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+
+        .section {
+            padding: .5rem;
+            text-align: left;
+            h3 {
+                padding: 1rem 0;
+                text-transform: capitalize;
+            }
+           ul {
+               li {
+                 padding: .3rem 0;
+                 margin: 1rem 0;
+                 list-style: none;
+                 font-size: .9rem;
+               }
+           }
+        }
+    }
+    button {
+        padding: 1rem;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+            @include bs(0px, 0px, 6px, lightgray);
+        }
+    }
+}
+@include tablet {
+    .feature {
+        padding: 5rem 8rem;   
+        button {
+            margin: 1rem 0;
+            width: 10rem;
+            padding: 1rem .5rem;
+        }
+    }
+}
+
+@include desktop {
+    .feature {
+        padding: 5rem 8rem;
+        h2 {
+            color: black;
+        }
+        .sections {
+            @include fr;
+            justify-content: space-between;
+            text-align: left;
+        }
+        button {
+            width: 10rem;
+            padding: .7rem .5rem;
+        }
+    }
+}
