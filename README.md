@@ -1,3 +1,41 @@
+# UDEMY DEMO Project
+
+This website was a Reactjs practice project. 
+
+## Table of contents
+
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Author](#author)
+  - [Getting Started with Create React App](#Getting Started with Create React App)
+
+### Screenshot
+![Mobile ScreenShot](https://github.com/seekinfox/udemy-main/blob/main/src/images/Screenshots/Screenshot%202021-12-23%20at%2015-36-27%20React%20App.png?raw=true)
+![Tablet ScreenShot](https://github.com/seekinfox/udemy-main/blob/main/src/images/Screenshots/Screenshot%202021-12-23%20at%2015-38-02%20React%20App.png?raw=true)
+![Desktop ScreenShot](https://github.com/seekinfox/udemy-main/blob/main/src/images/Screenshots/Screenshot%202021-12-23%20at%2015-39-01%20React%20App.png?raw=true)
+
+### Links 
+
+- Solution URL: [https://github.com/seekinfox/udemy-main](https://github.com/seekinfox/udemy-main)
+- Live Site URL: [https://seekinfox.github.io/udemy-main/](https://seekinfox.github.io/udemy-main/)
+
+### Built with
+
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript Library(ReactJS)
+
+### Author
+
+- Github - [https://github.com/seekinfox](https://github.com/seekinfox)
+- Frontend Mentor - [@seekinfox](https://www.frontendmentor.io/profile/seekinfox)
+
+## ---------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
