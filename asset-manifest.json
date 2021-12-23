@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/udemy-main/static/css/main.a9a6eb52.css",
+    "main.js": "/udemy-main/static/js/main.72307986.js",
+    "static/media/hero.jpg": "/udemy-main/static/media/hero.d306df74f4cddebda28d.jpg",
+    "static/media/hero1.jpg": "/udemy-main/static/media/hero1.546bde595ec6279d26a4.jpg",
+    "static/media/python1.jpg": "/udemy-main/static/media/python1.c84cb7ce05bdb019e4f4.jpg",
+    "static/media/ub-mobile-v3.jpg": "/udemy-main/static/media/ub-mobile-v3.2187cc2b4503f0a40b0f.jpg",
+    "static/media/instructor-mobile.jpg": "/udemy-main/static/media/instructor-mobile.d1d21722ecb073ddbe4e.jpg",
+    "static/media/music.jpg": "/udemy-main/static/media/music.c0f6eb626c8a29b19d42.jpg",
+    "static/media/transform-mobile-v3.jpg": "/udemy-main/static/media/transform-mobile-v3.6410f82aba378d27ac70.jpg",
+    "static/media/per.jpg": "/udemy-main/static/media/per.6b3251739ff18b263b45.jpg",
+    "static/media/design.jpg": "/udemy-main/static/media/design.39992edc40649e9b396d.jpg",
+    "static/media/photo.jpg": "/udemy-main/static/media/photo.c460ce7881cd82aa9aec.jpg",
+    "static/media/develp.jpg": "/udemy-main/static/media/develp.07b7387a14ebf25d69e7.jpg",
+    "static/media/it.jpg": "/udemy-main/static/media/it.eced9656e2723644013b.jpg",
+    "static/media/mark.jpg": "/udemy-main/static/media/mark.b0847e31a3aa21866d6f.jpg",
+    "static/media/busi.jpg": "/udemy-main/static/media/busi.ff5a76ae83a2409807d3.jpg",
+    "static/media/python.jpg": "/udemy-main/static/media/python.ec80aa29948c6d91c907.jpg",
+    "static/media/eventbrite-dark.svg": "/udemy-main/static/media/eventbrite-dark.333fcf270b8ac9ada0904ca67d4e3748.svg",
+    "static/media/nasdaq-dark.svg": "/udemy-main/static/media/nasdaq-dark.851232196db5353737792779ff2e2d7e.svg",
+    "static/media/logo-ub.svg": "/udemy-main/static/media/logo-ub.6ce089a0dc91366110364df69bbf21e2.svg",
+    "static/media/volkswagen-dark.svg": "/udemy-main/static/media/volkswagen-dark.acf3a11365e0977cfd03e5cf3f939107.svg",
+    "static/media/logo-udemy.svg": "/udemy-main/static/media/logo-udemy.ac64b9eb547dc3795f53173b290203d9.svg",
+    "static/media/box-dark.svg": "/udemy-main/static/media/box-dark.51e72d73f82eb149957bc4c07e1af330.svg",
+    "static/media/netflix-dark.svg": "/udemy-main/static/media/netflix-dark.19d92e0f04bb884cb71ebdf808d66a2c.svg",
+    "index.html": "/udemy-main/index.html",
+    "main.a9a6eb52.css.map": "/udemy-main/static/css/main.a9a6eb52.css.map",
+    "main.72307986.js.map": "/udemy-main/static/js/main.72307986.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9a6eb52.css",
+    "static/js/main.72307986.js"
+  ]
+}
