@@ -2,10 +2,14 @@
 
 This website was a Reactjs practice project. 
 
+### Links 
+
+- Solution URL: [https://github.com/seekinfox/udemy-main](https://github.com/seekinfox/udemy-main)
+- Live Site URL: [https://seekinfox.github.io/udemy-main/](https://seekinfox.github.io/udemy-main/)
+
 ## Table of contents
 
   - [Screenshot](#screenshot)
-  - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
   - [Getting Started with Create React App](#Getting Started with Create React App)
@@ -15,10 +19,6 @@ This website was a Reactjs practice project.
 ![Tablet ScreenShot](https://github.com/seekinfox/udemy-main/blob/main/src/images/Screenshots/Screenshot%202021-12-23%20at%2015-38-02%20React%20App.png?raw=true)
 ![Desktop ScreenShot](https://github.com/seekinfox/udemy-main/blob/main/src/images/Screenshots/Screenshot%202021-12-23%20at%2015-39-01%20React%20App.png?raw=true)
 
-### Links 
-
-- Solution URL: [https://github.com/seekinfox/udemy-main](https://github.com/seekinfox/udemy-main)
-- Live Site URL: [https://seekinfox.github.io/udemy-main/](https://seekinfox.github.io/udemy-main/)
 
 ### Built with
 
